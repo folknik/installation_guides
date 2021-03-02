@@ -16,7 +16,7 @@ foo@bar:~$ cd kafka_2.12-2.7.0
 Находим подпапку `config` и в ней файл `server.properties`. Раскоментируем в нем строку
 `listeners=PLAINTEXT://:9092`
 
-И добавляем переменную KAFKA_HOME в файл `.zshrc`
+Добавляем переменную KAFKA_HOME в файл `.zshrc`
 
 ```console
 export KAFKA_HOME=/Users/afadeev/kafka2/kafka_2.12-2.7.0
